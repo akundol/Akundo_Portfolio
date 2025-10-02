@@ -22,7 +22,6 @@
       <nav class="nav" role="navigation">
         <ul class="nav__items">
           <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <li class="nav__item"><a href="#collaborations" class="nav__link">Collaborations</a></li>
           <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
           <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
         </ul>
@@ -59,8 +58,6 @@
             </div>
             <div class="work__image-box">
               <img src="./images/project-policycon.png" class="work__image" alt="PolicyCON dashboard project" />
-              <img src="./images/project2-policycon.png" class="work__image" alt="PolicyCON dashboard project" />
-              <img src="./images/project3-policycon.png" class="work__image" alt="PolicyCON dashboard project" />
             </div>
           </div>
 
@@ -77,28 +74,8 @@
             </div>
             <div class="work__image-box">
               <img src="./images/project-unesco.png" class="work__image" alt="UNESCO research project" />
-              <img src="./images/project2-unesco.png" class="work__image" alt="UNESCO research project" />
-              <img src="./images/project3-unesco.png" class="work__image" alt="UNESCO research project" />
             </div>
           </div>
-
-          <div class="work__box">
-  <div class="work__text">
-    <h3>Viable Edu – Fintech Apprenticeship Program</h3>
-    <p>Studied financial markets and explored the role of technology in financial development. 
-       Participated in seminars with 50+ professionals and gained hands-on exposure to fintech concepts and applications.</p>
-    <ul class="work__list">
-      <li>Fintech</li>
-      <li>Financial Markets</li>
-      <li>Seminar Participation</li>
-      <li>Technology & Innovation</li>
-    </ul>
-  </div>
-  <div class="work__image-box">
-    <img src="./images/viableedu.png.png" class="work__image" alt="Viable Edu Fintech project" />
-  </div>
-</div>
-
 
           <div class="work__box">
             <div class="work__text">
@@ -118,15 +95,15 @@
       </div>
     </section>
 
-    <!-- ***** Collaborations ***** -->
-    <section class="collaborations" id="collaborations">
+    <!-- ***** Clients ***** -->
+    <section class="client" id="clients">
       <div class="row">
         <h2>Collaborations & Programs</h2>
-        <div class="collaborations__boxes">
-          <img src="./images/unesco.png" class="collaborations" alt="UNESCO" />
-          <img src="./images/paragone.png" class="collaborations__logo" alt="PARAGONE" />
-          <img src="./images/policycon.png" class="collaborations__logo" alt="PolicyCON" />
-          <img src="./images/viable-edu.png" class="collaborations__logo" alt="Viable Edu" />
+        <div class="client__logos">
+          <img src="./images/unesco.png" class="client__logo" alt="UNESCO" />
+          <img src="./images/policycon.png" class="client__logo" alt="PolicyCON" />
+          <img src="./images/forte.png" class="client__logo" alt="Forte Foundation" />
+          <img src="./images/viable-edu.png" class="client__logo" alt="Viable Edu" />
         </div>
       </div>
     </section>
@@ -143,7 +120,7 @@
               I’ve worked with organizations like UNESCO and PolicyCON, and I’m passionate about leveraging technology to solve 
               real-world problems at the intersection of data and business.
             </p>
-            <a href="./akundo-resume.pdf" class="btn">My Resume</a>
+            <a href="./resume.pdf" class="btn">My Resume</a>
           </div>
           <div class="about__photo-container">
             <img class="about__photo" src="./images/lois-akundo.jpg" alt="Kezong Lois Akundo" />
@@ -153,27 +130,6 @@
     </section>
   </main>
 
- <!-- ***** Future Thesis ***** -->
-    <section class="thesis" id="thesis">
-      <div class="row">
-        <h2>Future Thesis</h2>
-        <div class="thesis__content">
-          <div class="thesis__text">
-            <p>
-              For my senior thesis, I plan to explore <strong>Bayesian and Statistical Modeling of Post-Hurricane Environmental Hazards and Their Effects on Respiratory Health</strong>. 
-              This project will combine data science and public health to analyze the impact of flooding, mold growth, and water contamination after 
-              <em>Hurricane Helene</em> in Asheville, NC. 
-            </p>
-           
-            </p>
-          </div>
-          <div class="thesis__image-box">
-            <img src="./images/thesis-visual.png.png" alt="Thesis Data Visualization Concept" class="thesis__image"/>
-          </div>
-        </div>
-      </div>
-    </section>
-
   <!-- ***** Contact ***** -->
   <section class="contact" id="contact">
     <div class="row">
@@ -181,7 +137,6 @@
       <div class="contact__info">
         <p>If you’d like to collaborate, hire, or just chat about data science, AI, or business analytics, feel free to reach out. I’ll do my best to respond quickly!</p>
         <a href="mailto:lakundo.f22@warren-wilson.edu" class="btn">lakundo.f22@warren-wilson.edu</a>
-        <a href="https://www.linkedin.com/in/kezong-akundo-284867256/" class="btn">LinkedIn Profile</a>
       </div>
     </div>
   </section>
@@ -190,10 +145,10 @@
   <footer role="contentinfo" class="footer">
     <div class="row">
       <ul class="footer__social-links">
-        <li><a href="https://github.com/yourgithub" title="GitHub Profile"><img src="./images/linkedin.svg" alt="Github"></a></li>
+        <li><a href="https://github.com/yourgithub" title="GitHub Profile"><img src="./images/github.svg" alt="Github"></a></li>
         <li><a href="https://www.linkedin.com/in/kezong-akundo-284867256/" title="LinkedIn Profile"><img src="./images/linkedin.svg" alt="LinkedIn"></a></li>
       </ul>
-      <p>&copy; 2020 - Template designed & developed by <a href="https://nisar.dev">Nisar</a>.</p>
+      <p>&copy; 2025 - Portfolio of Kezong Lois Akundo</p>
     </div>
   </footer>
 
@@ -202,6 +157,4 @@
   </a>
   <script src="./index.js"></script>
 </body>
-
-
 </html>
